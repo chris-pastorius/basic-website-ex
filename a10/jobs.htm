@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <header>
+
+            <h1>JavaJam Coffee House</h1>
+
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="home.htm">Home</a></li>
+                <li><a href="menu.htm">Menu</a></li>
+                <li><a href="music.htm">Music</a></li>
+                <li><a href="jobs.htm">Jobs</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div id="herojobs"></div>
+
+            <h2>Jobs at JavaJam</h2>
+
+            <p>Want to work at JavaJam? Fill out the form below to start your application.<br>
+               Required fields are marked with an asterisk (*).
+            </p>
+
+            <form name="application" method="post" id="application" action="https://webdevbasics.net/scripts/javajam8.php">
+
+                <label for="myName">*Name: </label>
+                <input type="text" name="Name" id="myName" required="required">
+
+                <label for="myEmail">*E-mail: </label>
+                <input type="email" name="Email" id="myEmail" required="required">
+
+                <label for="myExperience">*Experience: </label>
+                <textarea name="Experience" cols="40" rows="2" required="required"></textarea>
+
+                <input type="submit" value="Apply Now" id="mySubmit">
+
+            </form>
+
+            <footer>
+                Copyright &copy 2018 JavaJam Coffee House<br>
+                <a href="mailto:chris@pastorius.com">chris@pastorius.com</a>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
